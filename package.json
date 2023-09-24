@@ -1,0 +1,17 @@
+{
+  "name": "login-form-postcss",
+  "version": "1.0.0",
+  "description": "This is a simple login-form styled by the PostCSS. I just create HTML and CSS, no JavaScript. Because i would like to share how to style the log-in form by using the PostCSS.",
+  "main": "index.js",
+  "scripts": {
+    "watch:css": "postcss src/input.css -o dist/style.css -w",
+    "build:css": "postcss src/input.css -o dist/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.4.30",
+    "postcss-cli": "^10.1.0"
+  }
+}
